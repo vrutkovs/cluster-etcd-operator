@@ -597,7 +597,7 @@ ${COMPUTED_ENV_VARS}
     resources:
       requests:
         memory: 600Mi
-        cpu: 300m
+        cpu: 245m
     readinessProbe:
       exec:
         command:
@@ -650,7 +650,7 @@ ${COMPUTED_ENV_VARS}
     resources:
       requests:
         memory: 200Mi
-        cpu: 100m
+        cpu: 5m
     securityContext:
       privileged: true
     volumeMounts:
@@ -684,7 +684,6 @@ ${COMPUTED_ENV_VARS}
     - hostPath:
         path: /usr/local/bin
       name: usr-local-bin
-
 `)
 
 func etcdPodYamlBytes() ([]byte, error) {
