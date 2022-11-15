@@ -804,7 +804,7 @@ ${COMPUTED_ENV_VARS}
         value: "REVISION"
     resources:
       requests:
-        memory: 600Mi
+        memory: 10Mi
         cpu: 300m
     readinessProbe:
       httpGet:
@@ -875,7 +875,7 @@ ${COMPUTED_ENV_VARS}
         value: "REVISION"
     resources:
       requests:
-        memory: 200Mi
+        memory: 10Mi
         cpu: 40m
     securityContext:
       privileged: true
@@ -1079,7 +1079,7 @@ ${COMPUTED_ENV_VARS}
         value: "REVISION"
     resources:
       requests:
-        memory: 600Mi
+        memory: 10Mi
         cpu: 300m
     readinessProbe:
       tcpSocket:

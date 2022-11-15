@@ -60,7 +60,7 @@ spec:
         --listen-metrics-urls=https://{{ .EtcdAddress.ListenMetricServer }} \
     resources:
       requests:
-        memory: 600Mi
+        memory: 10Mi
         cpu: 245m
     terminationMessagePolicy: FallbackToLogsOnError
     securityContext:

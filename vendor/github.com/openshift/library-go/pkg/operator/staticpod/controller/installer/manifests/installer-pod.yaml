@@ -38,7 +38,7 @@ spec:
           name: var-lock
       resources:
         requests:
-          memory: 200M
+          memory: 10M
           cpu: 150m
         limits:
           memory: 200M
